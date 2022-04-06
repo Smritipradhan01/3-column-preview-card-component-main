@@ -38,7 +38,7 @@ p {
 
 .bright-orange {
     background: var(--bright-orange);
-    border-radius: 5px 5px 0 0;
+    border-radius: 8px 8px 0 0;
 }
 
 .dark-cyon {
@@ -47,7 +47,7 @@ p {
 
 .very-dark-cyon {
     background: var(--very-dark-cyan);
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 8px 8px;
 }
 
 img {
@@ -85,6 +85,8 @@ img {
 .attribution {
     font-size: 11px;
     text-align: center;
+    position: bottom;
+
 }
 
 @media(min-width: 50rem) {
