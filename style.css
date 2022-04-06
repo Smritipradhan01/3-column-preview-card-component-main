@@ -24,9 +24,8 @@ body {
     min-height: 15rem;
 }
 
-h2 {
+h1 {
     font-family: 'Big Shoulders Display', sans-serif;
-    font-size: 24px;
     text-transform: uppercase;
     color: var(--very--light--gray);
 }
@@ -34,11 +33,12 @@ h2 {
 p {
     font-size: 0.9375rem;
     color: var(--transparent--white);
+    line-height: 1.5rem;
 }
 
 .bright-orange {
     background: var(--bright-orange);
-    border-radius: 10px 10px 0 0;
+    border-radius: 5px 5px 0 0;
 }
 
 .dark-cyon {
@@ -47,16 +47,20 @@ p {
 
 .very-dark-cyon {
     background: var(--very-dark-cyan);
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 5px 5px;
 }
 
-.btn {
+img {
+    margin: .75rem 0;
+}
+
+button {
     padding: .75rem 1.5rem;
     border-radius: 5rem;
     border: var(--very--light--gray);
     background: var(--very--light--gray);
     margin-top: .75rem;
-
+    font-size: 0.9375rem;
 }
 
 .attribution a {
@@ -79,15 +83,15 @@ p {
         max-width: 13.2rem;
     }
 
-    .btn {
+    button {
         margin-top: 4rem;
     }
 
     .bright-orange {
-        border-radius: 10px 0 0 10px;
+        border-radius: 5px 0 0 5px;
     }
 
     .very-dark-cyon {
-        border-radius: 0 10px 10px 0;
+        border-radius: 0 5px 5px 0;
     }
 }
