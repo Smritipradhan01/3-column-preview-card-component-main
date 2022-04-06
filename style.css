@@ -54,13 +54,28 @@ img {
     margin: .75rem 0;
 }
 
-button {
+.btn {
     padding: .75rem 1.5rem;
     border-radius: 5rem;
-    border: var(--very--light--gray);
+    border: none;
     background: var(--very--light--gray);
     margin-top: .75rem;
     font-size: 0.9375rem;
+    display: inline-block;
+    text-align: center;
+    font-weight: 700;
+}
+
+.button1 {
+    color: var(--bright-orange);
+}
+
+.button2 {
+    color: var(--dark-cyan);
+}
+
+.button3 {
+    color: var(--very-dark-cyan);
 }
 
 .attribution a {
@@ -83,11 +98,8 @@ button {
         max-width: 13.2rem;
     }
 
-    button {
+    .btn {
         margin-top: 4rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .bright-orange {
