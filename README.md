@@ -10,7 +10,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 Solution
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://smritipradhan01.github.io/3-column-preview-card-component-main/](https://your-live-site-url.com)
 
 Built with
 - Semantic HTML5 markup
