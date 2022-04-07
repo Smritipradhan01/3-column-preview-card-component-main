@@ -13,15 +13,16 @@ body {
     padding: 0;
     font-family: 'Lexend Deca',
         sans-serif;
+    color: white;
     background: var(--very--light--gray);
-
 }
 
 .container {
-    max-width: 314px;
+    max-width: 324px;
     width: 100%;
     margin: 0 auto;
     padding: 2.5rem 1rem;
+    box-sizing: border-box;
 }
 
 .card {
@@ -32,14 +33,16 @@ body {
 h1 {
     font-family: 'Big Shoulders Display', sans-serif;
     text-transform: uppercase;
-    color: var(--very--light--gray);
     font-size: 2.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
 }
 
 p {
     font-size: 0.875rem;
-    color: var(--transparent--white);
-    line-height: 1.75rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    margin-top: 0;
 }
 
 .bright-orange {
@@ -56,10 +59,6 @@ p {
     border-radius: 0 0 8px 8px;
 }
 
-img {
-    margin: .75rem 0;
-}
-
 .btn {
     font-size: 0.875rem;
     font-family: 'Lexend Deca', sans-serif;
@@ -67,7 +66,7 @@ img {
     border-radius: 5rem;
     border: 2px solid var(--transparent--white);
     background: var(--very--light--gray);
-    margin-top: .75rem;
+    margin-top: 2rem;
     display: inline-block;
     text-align: center;
     transition: 0.5s ease;
@@ -76,6 +75,7 @@ img {
 .btn:hover {
     cursor: pointer;
     background: unset;
+    color: white;
 }
 
 .button1 {
@@ -95,27 +95,26 @@ img {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: .75rem;
+    color: var(--very-dark-cyan);
     text-align: center;
     position: bottom;
 
 }
 
 @media(min-width: 870px) {
+
     .container {
         display: flex;
         justify-content: center;
+        align-items: center;
         max-width: 875px;
-        height: 100%;
-
+        padding: 0 2rem;
+        margin-top: 12rem;
     }
 
     .card {
         max-width: 13.2rem;
-    }
-
-    .btn {
-        margin-top: 4rem;
     }
 
     .bright-orange {
